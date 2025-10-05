@@ -249,13 +249,27 @@ MIT License - see LICENSE file for details
 
 ## Contributing
 
-Contributions welcome! Please:
+Contributions welcome!
 
 1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add tests if applicable
-5. Submit a pull request
+2. Create a feature branch: `git checkout -b feature/your-feature`
+3. Make your changes following the existing code style
+4. Test your changes: `python3 voice-daemon.py`
+5. Commit: `git commit -m "Add feature: description"`
+6. Push: `git push origin feature/your-feature`
+7. Open a Pull Request
+
+### Code Style
+- Follow PEP 8
+- Use meaningful variable names
+- Add docstrings to functions
+- Keep functions focused and small
+
+### Areas Needing Help
+- Multi-language support configuration
+- Performance optimizations
+- Documentation improvements
+- Bug fixes and testing
 
 ## Acknowledgments
 
